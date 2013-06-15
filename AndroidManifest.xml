@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.formule1app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.formule1app.MessageList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.formule1app.StandenActivity"
+            android:label="@string/title_activity_standen"
+            android:parentActivityName="com.example.formule1app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.formule1app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.warriorpoint.androidxmlsimpleRssHandler"
+            android:label="@string/title_activity_rss_handler" >
+        </activity>
+        <!--  
+        <activity
+            android:name="com.warriorpoint.androidxmlsimple.MessageList"
+            android:label="@string/title_activity_message_list" >
+        </activity>
+        -->
+        <activity
+            android:name="com.warriorpoint.androidxmlsimpleBaseFeedParser"
+            android:label="@string/title_activity_base_feed_parser" >
+        </activity>
+        <activity
+            android:name="com.warriorpoint.androidxmlsimple.Message"
+            android:label="@string/title_activity_message" >
+        </activity>
+    </application>
+
+</manifest>
