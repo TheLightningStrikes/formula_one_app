@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Formule1App</string>
+    <string name="app_name">Formule 1 App</string>
+    <string name="title_activity_news_reader">NewsReader</string>
     <string name="action_settings">Settings</string>
+    <string name="TextView1">Een</string>
+    <string name="TextView2">Twee</string>
+    <string name="TextView3">Drie</string>
+    <string name="title_activity_map_view">MapView</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_standen">StandenActivity</string>
-    <string name="title_activity_probeersel">ProbeerselActivity</string>
-    <string name="title_activity_rss_handler">RssHandler</string>
-    <string name="title_activity_message_list">MessageList</string>
-    <string name="title_activity_base_feed_parser">BaseFeedParser</string>
-    <string name="title_activity_message">Message</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_race_description">RaceDescription</string>
+    <string name="title_activity_races_list">RacesList</string>
 
 </resources>
